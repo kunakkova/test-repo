@@ -23,6 +23,3 @@
   | 3 | `char a; char b; int c; double d;` | 2 |
   | 4 | `short a; char b; double c; int d;` | 9 |
 
-- **Пример для `seed = 4` (`seed % 5 = 4` → `short a; char b; double c; int d;`):**
-  
-  **Правильный ответ:**  9
