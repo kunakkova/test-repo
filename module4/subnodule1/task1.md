@@ -17,16 +17,3 @@
   | 2          | `Point2D`     | точка на плоскости   | `double x`, `double y`, `int label`                          |
   | 3          | `Rectangle`   | прямоугольник         | `double width`, `double height`, `char color[16]`            |
   | 4          | `Employee`    | сотрудник компании    | `char name[32]`, `int id`, `double salary`                   |
-
-- **Пример ответа (для `seed % 5 = 3`):**  
-  Требуется объявить структуру `Rectangle` с полями:
-  - `width` типа `double`
-  - `height` типа `double`
-  - `color` типа `char[16]`  
-  Корректный ответ:
-  ```c
-  typedef struct {
-      double width;
-      double height;
-      char color[16];
-  } Rectangle;
